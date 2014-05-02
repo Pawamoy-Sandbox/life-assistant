@@ -1,2 +1,17 @@
 h1= title
 p #{title}
+  div.loginbox
+    form(name="signup", action="/install", method="post")
+        label(for='first_name') First Name
+          input(type="text", name="first_name")
+          br
+        label(for='last_name') First Name
+          input(type="text", name="last_name")
+          br
+        label(for='password') Password 
+          input(type="password", name="password")
+          br
+        label(for='birth_date') Birthdate
+          input(type="text", name="birth_date")
+          br
+          input(type="submit", value="Install")
