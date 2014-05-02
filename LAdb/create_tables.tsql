@@ -1,0 +1,8 @@
+-n ME
+-c first_name :v 20
+-c last_name :v 20
+-c email :v 50
+-c password :v 64
+-c birthdate :da
+-c first_run :ts
+
